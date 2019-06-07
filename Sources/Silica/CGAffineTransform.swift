@@ -14,7 +14,7 @@ import Foundation
 
 import struct CoreGraphics.CGAffineTransform
 public typealias CGAffineTransform = CoreGraphics.CGAffineTransform
-
+public typealias CGFloat = CoreGraphics.CGFloat
 #else
 
 /// Affine Transform
