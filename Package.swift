@@ -13,6 +13,6 @@ let package = Package(
     ], targets: [
         .target(
             name: "Silica",
-            dependencies: [])
+            dependencies: ["Cairo"])
     ]
 )
